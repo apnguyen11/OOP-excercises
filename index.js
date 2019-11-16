@@ -27,3 +27,14 @@ class Person {
 }
 
 printContactJordan()
+
+class Card {
+    constructor(point, suite){
+        this.point = point,
+        this.suite = suite
+    }
+}
+
+let myCard = new Card(5, 'diamonds')
+
+console.log(myCard, '**********', myCard.suite)
